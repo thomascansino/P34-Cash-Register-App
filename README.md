@@ -1,1 +1,1 @@
-# P34-Cash-Register-App
+# Cash-Register-App-34th Project
