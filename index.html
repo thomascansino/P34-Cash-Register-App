@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Cash Register</h1>
+    <div class="input-container">
+      <div class="input-block"> 
+        <h3>Input cash from customer:</h3>
+        <input type="number" id="cash">
+      </div>
+      <div class="button-block">
+        <button id="purchase-btn">Purchase</button>
+        <button id="clear-btn">New Item</button>
+      </div>
+      <div id="receipt">
+        <h6>RECEIPT</h6>
+        <div class="denomination" id="status-bar"></div>
+        <div class="denomination" id="ONE-HUNDRED"></div>
+        <div class="denomination" id="TWENTY"></div>
+        <div class="denomination" id="TEN"></div>
+        <div class="denomination" id="FIVE"></div>
+        <div class="denomination" id="ONE"></div>
+        <div class="denomination" id="QUARTER"></div>
+        <div class="denomination" id="DIME"></div>
+        <div class="denomination" id="NICKEL"></div>
+        <div class="denomination" id="PENNY"></div>
+      </div>
+    </div>
+    <div class="output-container">
+      <div class="upper-box">
+        <div class="horizontal"></div>
+        <div class="cid">
+          <div class="cid-header">Change in Drawer</div>
+        </div>
+        <div class="total-change"></div>
+      </div>
+      <div class="lower-box">
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+        <div class="button"></div>
+      </div>
+      <div class="lower-box-under">
+        <div class="cash-register"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
